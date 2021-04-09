@@ -1,3 +1,5 @@
+// 'import from' code for book, review
+
 import logo from './logo.svg';
 import './App.css';
 
