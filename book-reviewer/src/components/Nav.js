@@ -4,7 +4,7 @@ export class Nav extends Component {
     render() {
         return (
             <div>
-                
+                Nav
             </div>
         )
     }

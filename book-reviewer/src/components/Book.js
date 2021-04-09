@@ -4,7 +4,7 @@ export class Book extends Component {
     render() {
         return (
             <div>
-                
+                Book
             </div>
         )
     }

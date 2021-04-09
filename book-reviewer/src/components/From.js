@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 
-export class From extends Component {
+export class Form extends Component {
     render() {
         return (
             <div>
-                
+                Form
             </div>
         )
     }
