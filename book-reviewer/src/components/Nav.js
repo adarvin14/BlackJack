@@ -4,7 +4,12 @@ export class Nav extends Component {
     render() {
         return (
             <div>
-                Nav
+                <ul>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about">About</Link></li>
+                    <li><Link to="/books">Books</Link></li>
+                    <li><Link to="/books/new">Create a Book to Review</Link></li>
+                </ul>
             </div>
         )
     }
