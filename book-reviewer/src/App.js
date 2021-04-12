@@ -22,8 +22,8 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={ Home } />
           <Route exact path="/about" component={ About } />
-          <Route exact path="/blogs" component={ Index } />
-          <Route exact path="/blogs/new" component={ Form } />
+          <Route exact path="/books" component={ Index } />
+          <Route exact path="/books/new" component={ Form } />
           <Route component={ErrorPage} />
         </Switch>
         <Footer />
