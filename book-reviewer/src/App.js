@@ -11,19 +11,31 @@ import Form from './components/Form';
 
 class App extends Component {
 
-  //const componentDidMount
+  componentDidMount() {
+    this.props.getBooks();
+  }
 
   render() {
     return (
-      <div className="App">
-        <h1>
-          Hello World
-        </h1>
-      </div>
+      <Router>
+        <Nav />
+        <Switch>
+          <Route exact path="/" component={ Home } />
+          <Route exact path="/about" component={ About } />
+          <Route exact path="/blogs" component={ Index } />
+          <Route exact path="/blogs/new" component={ Form } />
+          <Route component={ErrorPage} />
+        </Switch>
+        <Footer />
+      </Router>
     );
   }
 }
 
-//const mapStateToProps = state => {}
+const mapStateToProps = state => {
+  return {
+    loading: state.loading
+  }
+}
 
 export default connect(mapStateToProps, { getBooks })(App);
