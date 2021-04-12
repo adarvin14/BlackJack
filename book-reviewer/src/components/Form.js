@@ -46,4 +46,4 @@ export class Form extends Component {
     }
 }
 
-export default From
+export default connect(null, { addBook })(Form)
