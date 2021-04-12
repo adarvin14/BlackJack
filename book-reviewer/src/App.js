@@ -11,7 +11,7 @@ import Form from './components/Form';
 
 class App extends Component {
 
-  //componentDidMount function
+  //const componentDidMount
 
   render() {
     return (
@@ -24,4 +24,6 @@ class App extends Component {
   }
 }
 
-export default App;
+//const mapStateToProps = state => {}
+
+export default connect(mapStateToProps, { getBooks })(App);
