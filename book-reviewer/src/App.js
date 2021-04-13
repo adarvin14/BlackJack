@@ -6,8 +6,8 @@ import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
-import Index from './components/Index';
-import Form from './components/Form';
+import Index from './components/Books/Index';
+import Form from './components/Books/Form';
 
 class App extends Component {
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux';
-import Book from './Books';
+import Book from '.';
 
 class Index extends Component {
   render() {
